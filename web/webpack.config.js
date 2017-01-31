@@ -9,9 +9,7 @@ module.exports = [{
         app: path.resolve(root, 'src/web_modules/app/main'),
         polyfills: path.resolve(root, 'src/web_modules/app/polyfills'),
         vendor: path.resolve(root, 'src/web_modules/app/vendor'),
-        web: path.resolve(root,'webpack/entries/web'),
-        viacon: path.resolve(root,'webpack/entries/viacon'),
-        viacon_url: path.resolve(root,'webpack/entries/viacon-url')
+        web: path.resolve(root,'webpack/entries/web')
     },
     output: {
         path: path.resolve(root, 'target/generated-sources/assets'),

@@ -16,31 +16,6 @@
 
     <dependencies>
         <dependency>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.eclipse.persistence</groupId>
-                    <artifactId>eclipselink</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.eclipse.persistence</groupId>
-                    <artifactId>org.eclipse.persistence.jpa</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>javax.servlet</groupId>
-                    <artifactId>javax.servlet-api</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>

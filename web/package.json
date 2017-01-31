@@ -79,7 +79,8 @@
     "watch:parallel": "parallelshell 'npm run watch:webapp' 'npm run watch:assets'",
     "watch" : "npm run watch:assets",
     "build": "webpack",
-    "start" : "http-server ./src/main/webapp/ c-1",
+    "start_test" : "http-server ./src/main/webapp/ -c-1",
+    "start" : "http-server -c-1 ./target/web.war",
     "protractor": "protractor src/test/acceptance-test/conf.js"
   },
   "private": true
