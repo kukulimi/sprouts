@@ -1,0 +1,13 @@
+.idea/
+.idea/artifacts/
+*.iml
+web/target/
+web/node_modules/
+web/dist/
+web/bower_components/
+node_modules/
+web/*.iml
+web/npm-debug.log
+web/overlays/
+target/
+
