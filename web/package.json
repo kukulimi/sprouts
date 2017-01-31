@@ -74,12 +74,12 @@
   "scripts": {
     "lint": "tslint src/web_modules/**/*.ts -t verbose",
     "test": "karma start config/karma.config.js",
-    "watch:webapp": "watch --interval=1 'rsync -av --progress ./src/main/webapp ./target/partners.war --exclude WEB-INF'  ",
+    "watch:webapp": "watch --interval=1 'rsync -av --progress ./src/main/webapp ./target/web.war --exclude WEB-INF'  ",
     "watch:assets": "webpack --config config/webpack.dev.watch.js --progress --watch",
     "watch:parallel": "parallelshell 'npm run watch:webapp' 'npm run watch:assets'",
     "watch" : "npm run watch:assets",
     "build": "webpack",
-    "start" : "http-server -c-1 ./target/partners.war",
+    "start" : "http-server ./src/main/webapp/ c-1",
     "protractor": "protractor src/test/acceptance-test/conf.js"
   },
   "private": true
